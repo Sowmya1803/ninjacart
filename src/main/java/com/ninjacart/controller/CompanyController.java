@@ -37,7 +37,7 @@ public class CompanyController {
 	public String HelloMethod() {
 		return "Hello";
 	}
-	
+	//save company mapping
 	@PostMapping("/saveCompany")
 	public String saveCompany(@RequestBody CompanyModel model) {
 		//WebService w=new WebService();
